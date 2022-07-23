@@ -1,11 +1,13 @@
 //双链表(带头节点)
 #include<stdio.h>
 #include<stdlib.h>
+
 //定义双链表
 typedef struct DNode {
 	int data;
 	struct DNode* prior, * next;
 }DNode, *DLinkList;
+
 
 //声明
 bool InitDLinklist(DLinkList& L);//初始化双链表
@@ -15,6 +17,7 @@ bool DeleteNextDNode(DNode* p);//删除p节点后的q节点
 void DestoryList(DLinkList& L);//销毁双链表
 void BTraversal(DLinkList L);//向后遍历双链表
 void FTraversal(DNode* p);// 结点向前遍历(跳过头结点)
+
 
 
 //int main()

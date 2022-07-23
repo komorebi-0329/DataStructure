@@ -3,13 +3,13 @@
 #include<stdlib.h>
 #define InitSize 10
 
-
 //定义
 typedef struct {
 	int *data;
 	int MaxSize;
 	int length;
 }SeqList;
+
 
 //函数声明
 void InitList(SeqList& L);//初始化
@@ -18,6 +18,7 @@ bool ListInsert(SeqList& L, int i, int e); //按位插入   在顺序表L中的第i个位置插
 bool ListDelete(SeqList& L, int i, int& e);//按位删除并将删除的元素返回
 int GetElem(SeqList L, int i);//按位查找
 int LocateElem(SeqList L, int e);//按值查找  i为数值，e为位数
+
 
 
 //int main()

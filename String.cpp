@@ -1,3 +1,4 @@
+//串   ch[0]废弃不用
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -10,7 +11,6 @@ typedef struct {
 	int length;
 }HString;
 
-//本字符串 ch[0]废弃不用
 
 //声明函数
 bool InitString(HString& S, int len);//初始化
