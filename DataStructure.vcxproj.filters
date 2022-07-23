@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ContiguousList.cpp">
+    <ClCompile Include="01-ContiguousList.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="SinglyLinkList.cpp">
+    <ClCompile Include="02-SinglyLinkList.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="DLinkList.cpp">
+    <ClCompile Include="03-DLinkList.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="String.cpp">
+    <ClCompile Include="04-String.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

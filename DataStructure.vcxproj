@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ContiguousList.cpp" />
-    <ClCompile Include="DLinkList.cpp" />
-    <ClCompile Include="SinglyLinkList.cpp" />
-    <ClCompile Include="String.cpp" />
+    <ClCompile Include="01-ContiguousList.cpp" />
+    <ClCompile Include="03-DLinkList.cpp" />
+    <ClCompile Include="02-SinglyLinkList.cpp" />
+    <ClCompile Include="04-String.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
