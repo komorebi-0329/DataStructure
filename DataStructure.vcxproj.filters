@@ -27,5 +27,8 @@
     <ClCompile Include="04-String.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="05-BiTree.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

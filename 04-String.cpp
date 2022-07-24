@@ -187,6 +187,7 @@ int Simple_Index(HString s, HString t)//定位操作  朴素算法
 		return 0;
 }
 
+
 int Kmp_Search(HString s, HString str)//定位操作  KMP算法
 {
 	int i = 1, j = 1;  //i为主串指向   j为模式串指向
@@ -207,6 +208,7 @@ int Kmp_Search(HString s, HString str)//定位操作  KMP算法
 	else
 		return 0;
 }
+
 
 void Get_Next(HString T, int next[])//取得next数组
 {
