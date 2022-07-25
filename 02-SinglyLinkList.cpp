@@ -1,5 +1,5 @@
 //单链表(带头结点)
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS    //78 and 79中 scanf 发生C4996
 #include<stdio.h>
 #include<stdlib.h>
 #include<iostream>

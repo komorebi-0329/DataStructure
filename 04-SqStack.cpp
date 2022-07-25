@@ -24,32 +24,32 @@ void StackLength(Sqstack& L);//求栈长
 
 
 
-int main()
-{
-	Sqstack t;
-	InitStack(t);
-	Push(t,1);//进栈
-	Push(t, 2);//进栈
-	Push(t, 3);//进栈
-	Push(t, 4);//进栈
-	Push(t, 5);//进栈
-	PrintfStack(t);
-	GetTop(t);
-	StackLength(t);
-	int x=0;
-	if (Pop(t, x))
-		cout << "success 被出栈的元素为"<<x<< endl;
-	else
-		cout << "fail" << endl;
-	GetTop(t);
-	
-	DestroyStack(t);
-	StackLength(t);
-	if (StackEmpty(t))
-		cout << "this stack is NULL" << endl;
-	else
-		cout << "This Stack have num" << endl;
-}
+//int main()
+//{
+//	Sqstack t;
+//	InitStack(t);
+//	Push(t,1);//进栈
+//	Push(t, 2);//进栈
+//	Push(t, 3);//进栈
+//	Push(t, 4);//进栈
+//	Push(t, 5);//进栈
+//	PrintfStack(t);
+//	GetTop(t);
+//	StackLength(t);
+//	int x=0;
+//	if (Pop(t, x))
+//		cout << "success 被出栈的元素为"<<x<< endl;
+//	else
+//		cout << "fail" << endl;
+//	GetTop(t);
+//	
+//	DestroyStack(t);
+//	StackLength(t);
+//	if (StackEmpty(t))
+//		cout << "this stack is NULL" << endl;
+//	else
+//		cout << "This Stack have num" << endl;
+//}
 
 
 
