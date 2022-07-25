@@ -24,10 +24,16 @@
     <ClCompile Include="03-DLinkList.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="04-String.cpp">
+    <ClCompile Include="String.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="05-BiTree.cpp">
+    <ClCompile Include="BiTree.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="04-SqStack.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="05-LiStack.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

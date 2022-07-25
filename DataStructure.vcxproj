@@ -22,8 +22,10 @@
     <ClCompile Include="01-ContiguousList.cpp" />
     <ClCompile Include="03-DLinkList.cpp" />
     <ClCompile Include="02-SinglyLinkList.cpp" />
-    <ClCompile Include="04-String.cpp" />
-    <ClCompile Include="05-BiTree.cpp" />
+    <ClCompile Include="04-SqStack.cpp" />
+    <ClCompile Include="05-LiStack.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="BiTree.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
