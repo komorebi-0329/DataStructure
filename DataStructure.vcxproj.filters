@@ -36,9 +36,15 @@
     <ClCompile Include="05-LiStack.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="06-SqQueue.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05-LiStack.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="06-SqQueue.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

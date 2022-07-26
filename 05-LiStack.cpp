@@ -1,3 +1,4 @@
+//链栈
 #include<stdio.h>
 #include<stdlib.h>
 #include<iostream>
@@ -5,26 +6,26 @@
 
 using namespace std;
 
-int main()
-{
-	LiStack L;
-	InitStack(L);
-	Push(L, 1);
-	Push(L, 2);
-	Push(L, 3);
-	Push(L, 4);
-	Push(L, 5);
-	GetTop(L);
-	StackEmpty(L);
-	StackLength(L);
-	int a;
-	Pop(L, a);
-	cout << "被出栈的数为" << a << endl;
-	GetTop(L);
-	DestroyStack(L);
-	StackEmpty(L);
-	StackLength(L);
-}
+//int main()
+//{
+//	LiStack L;
+//	InitStack(L);
+//	Push(L, 1);
+//	Push(L, 2);
+//	Push(L, 3);
+//	Push(L, 4);
+//	Push(L, 5);
+//	GetTop(L);
+//	StackEmpty(L);
+//	StackLength(L);
+//	int a;
+//	Pop(L, a);
+//	cout << "被出栈的数为" << a << endl;
+//	GetTop(L);
+//	DestroyStack(L);
+//	StackEmpty(L);
+//	StackLength(L);
+//}
 
 
 bool InitStack(LiStack& L)//初始化链栈
