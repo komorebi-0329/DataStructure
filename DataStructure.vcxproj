@@ -25,12 +25,14 @@
     <ClCompile Include="04-SqStack.cpp" />
     <ClCompile Include="05-LiStack.cpp" />
     <ClCompile Include="06-SqQueue.cpp" />
+    <ClCompile Include="07-LinkQueue.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="BiTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05-LiStack.h" />
     <ClInclude Include="06-SqQueue.h" />
+    <ClInclude Include="07-LinkQueue.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
