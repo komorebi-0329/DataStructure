@@ -22,8 +22,9 @@
     <ClCompile Include="01-ContiguousList.cpp" />
     <ClCompile Include="03-DLinkList.cpp" />
     <ClCompile Include="02-SinglyLinkList.cpp" />
+    <ClCompile Include="04-2-Stack-InfixToSuffix.cpp" />
     <ClCompile Include="04-SqStack.cpp" />
-    <ClCompile Include="04.5-Stack-BracketCheck.cpp" />
+    <ClCompile Include="04-1-Stack-BracketCheck.cpp" />
     <ClCompile Include="05-LiStack.cpp" />
     <ClCompile Include="06-SqQueue.cpp" />
     <ClCompile Include="07-LinkQueue.cpp" />

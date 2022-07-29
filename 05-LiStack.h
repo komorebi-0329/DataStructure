@@ -27,4 +27,6 @@ bool Push(LiStack& L, int x);//进栈
 bool Pop(LiStack& L, int& x);//出栈
 void  GetTop(LiStack& L);//读取栈顶
 void StackEmpty(LiStack& L);//判断空栈
-void StackLength(LiStack& L);//求栈长
+int StackLength(LiStack& L);//求栈长
+void InfixTOSuffix(LiStack& L, char str[]);//中缀转后缀
+void ExpressionCount(LiStack& L, char str[]);//表达式计算

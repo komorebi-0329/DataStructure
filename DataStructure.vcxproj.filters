@@ -42,7 +42,10 @@
     <ClCompile Include="07-LinkQueue.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="04.5-Stack-BracketCheck.cpp">
+    <ClCompile Include="04-1-Stack-BracketCheck.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="04-2-Stack-InfixToSuffix.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

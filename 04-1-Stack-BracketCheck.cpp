@@ -26,14 +26,14 @@ void StackLength(Sqstack& L);//求栈长
 
 
 
-int main()
-{
-	char test[] = {'[',']'};
-	if (bracketCheck(test, 2))
-		cout << "成功" << endl;
-	else
-		cout << "fail" << endl;
-}
+//int main()
+//{
+//	char test[] = {'[',']'};
+//	if (bracketCheck(test, 2))
+//		cout << "成功" << endl;
+//	else
+//		cout << "fail" << endl;
+//}
 
 
 
