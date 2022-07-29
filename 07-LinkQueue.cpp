@@ -6,25 +6,25 @@
 using namespace std;
 
 
-int main()
-{
-	LinkQueue q;
-	InitQueue(q);
-	test_Input(q);
-	
-	GetHead(q);
-	DeQueue(q);
-	GetHead(q);
-	
-	QueueLength(q);
-	
-	DeQueue(q);
-	
-	QueueEmpty(q);
-	DestroyQueue(q);
-	QueueEmpty(q);
-	QueueLength(q);
-}
+//int main()
+//{
+//	LinkQueue q;
+//	InitQueue(q);
+//	test_Input(q);
+//	
+//	GetHead(q);
+//	DeQueue(q);
+//	GetHead(q);
+//	
+//	QueueLength(q);
+//	
+//	DeQueue(q);
+//	
+//	QueueEmpty(q);
+//	DestroyQueue(q);
+//	QueueEmpty(q);
+//	QueueLength(q);
+//}
 
 
 

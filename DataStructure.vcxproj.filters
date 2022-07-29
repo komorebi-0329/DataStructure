@@ -42,6 +42,9 @@
     <ClCompile Include="07-LinkQueue.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="04.5-Stack-BracketCheck.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05-LiStack.h">
