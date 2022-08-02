@@ -22,14 +22,14 @@
     <ClCompile Include="01-ContiguousList.cpp" />
     <ClCompile Include="03-DLinkList.cpp" />
     <ClCompile Include="02-SinglyLinkList.cpp" />
-    <ClCompile Include="04-2-Stack-InfixToSuffix.cpp" />
-    <ClCompile Include="04-SqStack.cpp" />
-    <ClCompile Include="04-1-Stack-BracketCheck.cpp" />
+    <ClCompile Include="04-3-Stack-InfixToSuffix.cpp" />
+    <ClCompile Include="04-1-SqStack.cpp" />
+    <ClCompile Include="04-2-Stack-BracketCheck.cpp" />
     <ClCompile Include="05-LiStack.cpp" />
     <ClCompile Include="06-SqQueue.cpp" />
     <ClCompile Include="07-LinkQueue.cpp" />
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="BiTree.cpp" />
+    <ClCompile Include="08-String.cpp" />
+    <ClCompile Include="09-BiTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05-LiStack.h" />

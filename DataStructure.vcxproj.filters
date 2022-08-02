@@ -24,13 +24,13 @@
     <ClCompile Include="03-DLinkList.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="String.cpp">
+    <ClCompile Include="08-String.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="BiTree.cpp">
+    <ClCompile Include="09-BiTree.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="04-SqStack.cpp">
+    <ClCompile Include="04-1-SqStack.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="05-LiStack.cpp">
@@ -42,10 +42,10 @@
     <ClCompile Include="07-LinkQueue.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="04-1-Stack-BracketCheck.cpp">
+    <ClCompile Include="04-2-Stack-BracketCheck.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="04-2-Stack-InfixToSuffix.cpp">
+    <ClCompile Include="04-3-Stack-InfixToSuffix.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
