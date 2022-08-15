@@ -6,15 +6,15 @@
 
 using namespace std;
 
-int main()
-{
-	char str[50];
-	LiStack L;
-	gets_s(str);	//gets()函数用来从键盘读取字符串直到换行符结束,但换行符会被丢弃，在末尾添加'\0'字符
-	InfixTOSuffix(L, str);
-	//ExpressionCount(L, str); (char中数值转换问题)
-	return 0;
-}
+//int main()
+//{
+//	char str[50];
+//	LiStack L;
+//	gets_s(str);	//gets()函数用来从键盘读取字符串直到换行符结束,但换行符会被丢弃，在末尾添加'\0'字符
+//	InfixTOSuffix(L, str);
+//	//ExpressionCount(L, str); (char中数值转换问题)
+//	return 0;
+//}
  
 void ExpressionCount(LiStack& L, char str[])//表达式计算
 {

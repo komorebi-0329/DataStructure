@@ -35,6 +35,7 @@
     <ClInclude Include="05-LiStack.h" />
     <ClInclude Include="06-SqQueue.h" />
     <ClInclude Include="07-LinkQueue.h" />
+    <ClInclude Include="09-BiTree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
