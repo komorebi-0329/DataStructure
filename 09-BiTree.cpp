@@ -44,7 +44,7 @@ BiTree CreateTree(BiTree tree)//创建一个二叉树
 	else
 	{
 		tree = (BiTree)malloc(sizeof(BiTNode));
-		(tree)->data = temp;
+		tree->data = temp;
 		tree->lchild = CreateTree(tree->lchild);//构造左子树
 		tree->rchild=CreateTree(tree->rchild);//构造右子树
 	}
@@ -68,9 +68,7 @@ int TreeDepth(BiTree tree)//返回树的深度
 {
 	int leftDepth, rightDepth;
 	if (tree==NULL)
-	{
 		return 0;
-	}
 	else
 	{
 		leftDepth = TreeDepth(tree->lchild);
@@ -88,7 +86,7 @@ void Root(BiTree tree)//显示根节点的值
 
 }
 
-int Sumleaf(BiTree tree)
+int Sumleaf(BiTree tree)//节点个数
 {
 	int num;
 	if (tree == NULL)
