@@ -23,7 +23,7 @@ void ExpressionCount(LiStack& L, char str[])//表达式计算
 	InitStack(L);
 	while (str[i]!='\0')
 	{
-		if (isdigit(str[i]))
+		if (isdigit(str[i]))   //isdigit函数判断是否为操作数
 		{
 			Push(L, str[i]);
 			i++;
